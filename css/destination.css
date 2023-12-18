@@ -1,0 +1,144 @@
+* {
+  text-decoration: none;
+}
+
+.nav__navigation {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0rem 3rem 0rem 3rem;
+}
+
+.nav__logo {
+  color: #335576;
+}
+
+.nav__pages {
+  display: flex;
+  align-items: center;
+}
+.nav__pages a {
+  padding: 0.5rem;
+}
+
+.destination {
+  position: relative;
+  padding-bottom: 10%;
+}
+.destination--hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.destination--iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.destination--greece {
+  background-image: url("../assets/Images/greece.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.body__cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.body__cards .body__days {
+  margin: 5px;
+  min-width: 255px;
+  min-height: 250px;
+  max-width: 20%;
+  max-height: 25em;
+  background-color: #fefaf5;
+  border-radius: 5px;
+  max-width: 20%;
+  margin: 2%;
+  border: 1px solid rgba(16, 15, 15, 0.2);
+}
+.body__cards .body__cardHeading {
+  text-align: center;
+  min-width: 90%;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+.body__cards .body__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.body__cards .body__list__item {
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  min-width: 90%;
+  border-radius: 3px;
+  list-style-type: none;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+.body__heading {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  padding: 100px;
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+}
+
+.footer__contact {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: #fefaf5;
+  color: #335576;
+}
+.footer__contact .contact__heading {
+  font-size: smaller;
+  color: #db7a4e;
+}
+.footer__contact .footer__details {
+  box-sizing: border-box;
+  padding: 10px;
+}
+.footer__contact .footer__hours {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.footer__contact .footer__hours .footer__days {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.footer__contact .footer__hours .footer__days .footer__weekdays {
+  margin: 0rem 0.5rem;
+}
+.footer__contact .footer__social {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0rem 1rem;
+  box-sizing: border-box;
+  padding: 0rem 2rem 0rem 2rem;
+}
+.footer__contact .footer__social .social__icon {
+  margin: 10px;
+}
+.footer__contact .footer__social .social__heading {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=destination.css.map */
